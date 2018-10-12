@@ -1,0 +1,23 @@
+nav {
+  background: #005792; }
+  nav a {
+    color: #fff;
+    margin-left: 10px; }
+    nav a:hover {
+      color: #53cde2; }
+
+.creativo {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center; }
+  .creativo img {
+    width: 100%;
+    margin: 10px auto; }
+
+h2 {
+  font-size: 32px;
+  margin: 20px auto;
+  padding: 10px; }
+
+/*# sourceMappingURL=index.css.map */

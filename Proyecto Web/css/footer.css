@@ -1,0 +1,20 @@
+footer{
+padding: 100px;
+text-align: center;
+background: #343a40;
+}
+
+.icon-facebook, .icon-instagram, .icon-googleplus{
+color: #d1d1d1;
+font-size: 25px;
+cursor: pointer;
+}
+
+.icon-facebook:hover, .icon-instagram:hover, .icon-googleplus:hover{
+color: #F2F2F2;
+}
+
+.copy{
+color: #fff;
+font-size: 15px;
+}

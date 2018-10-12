@@ -1,0 +1,13 @@
+.contenedor{
+    width: 90%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cajon1{
+    
+    width: 175px;
+    height: 300px;
+    display: inline-block;
+}
