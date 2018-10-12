@@ -26,4 +26,24 @@
             }
         }
     }
+    .compromiso {
+        padding: 70px 0;
+        .titulo {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 32px;
+            color: #000;
+            margin-bottom: 70px;
+        }
+        .icono {
+            margin-bottom: 30px;
+            line-height: 28px;
+        }
+        .parrafo {
+            margin-bottom: 30px;
+            line-height: 28px;
+            text-align: justify;
+        }
+    }
 }

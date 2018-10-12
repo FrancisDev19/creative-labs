@@ -27,5 +27,21 @@ nav {
     .main .caracteristicas .caracteristica .parrafo {
       margin-bottom: 30px;
       line-height: 28px; }
+.main .compromiso {
+  padding: 70px 0; }
+  .main .compromiso .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .compromiso .icono {
+    margin-bottom: 30px;
+    line-height: 28px; }
+  .main .compromiso .parrafo {
+    margin-bottom: 30px;
+    line-height: 28px;
+    text-align: justify; }
 
 /*# sourceMappingURL=index.css.map */
