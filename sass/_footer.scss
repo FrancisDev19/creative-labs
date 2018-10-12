@@ -1,0 +1,38 @@
+footer {
+    height: 300px;
+    background: #393e46;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .redes-sociales {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        a {
+            padding: 20px;
+            color: #fff;
+            font-size: 30px;
+        }
+        .facebook {
+            color: #3B5998;
+            &:hover {
+                color: #3B5998;
+            }
+        }
+        .instagram {
+            color:#2C6A93;
+            &:hover {
+                color: #2C6A93;
+            }
+        }
+        .google-plus {
+            color: #C20806;
+            &:hover {
+                color: #C20806;
+            }
+        }
+    }
+    p {
+        color: #fff;
+    }
+}

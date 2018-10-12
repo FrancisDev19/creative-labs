@@ -1,3 +1,6 @@
+body {
+  font-family: niramit; }
+
 nav {
   background: #005792; }
   nav a {
@@ -37,11 +40,39 @@ nav {
     color: #000;
     margin-bottom: 70px; }
   .main .compromiso .icono {
-    margin-bottom: 30px;
-    line-height: 28px; }
+    margin-bottom: 30px; }
   .main .compromiso .parrafo {
     margin-bottom: 30px;
     line-height: 28px;
     text-align: justify; }
+
+footer {
+  height: 300px;
+  background: #393e46;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    footer .redes-sociales a {
+      padding: 20px;
+      color: #fff;
+      font-size: 30px; }
+    footer .redes-sociales .facebook {
+      color: #3B5998; }
+      footer .redes-sociales .facebook:hover {
+        color: #3B5998; }
+    footer .redes-sociales .instagram {
+      color: #2C6A93; }
+      footer .redes-sociales .instagram:hover {
+        color: #2C6A93; }
+    footer .redes-sociales .google-plus {
+      color: #C20806; }
+      footer .redes-sociales .google-plus:hover {
+        color: #C20806; }
+  footer p {
+    color: #fff; }
 
 /*# sourceMappingURL=index.css.map */
