@@ -6,18 +6,26 @@ nav {
     nav a:hover {
       color: #53cde2; }
 
-.creativo {
-  width: 100px;
-  padding: 10px;
-  margin-bottom: 5px;
-  text-align: center; }
-  .creativo img {
-    width: 100%;
-    margin: 10px auto; }
-
-h2 {
-  font-size: 32px;
-  margin: 20px auto;
-  padding: 10px; }
+.main .caracteristicas {
+  padding: 70px 0; }
+  .main .caracteristicas .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .caracteristicas .caracteristica {
+    text-align: center; }
+    .main .caracteristicas .caracteristica .icono {
+      vertical-align: top;
+      margin-bottom: 30px; }
+    .main .caracteristicas .caracteristica .primera_linea {
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-size: 20px; }
+    .main .caracteristicas .caracteristica .parrafo {
+      margin-bottom: 30px;
+      line-height: 28px; }
 
 /*# sourceMappingURL=index.css.map */
