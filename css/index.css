@@ -2,12 +2,12 @@ body {
   font-family: niramit; }
 
 nav {
-  background: #005792; }
+  background: #fff; }
   nav a {
-    color: #fff;
+    color: #000;
     margin-left: 10px; }
     nav a:hover {
-      color: #53cde2; }
+      color: #005792; }
 
 .main .caracteristicas {
   padding: 70px 0; }
@@ -63,15 +63,15 @@ footer {
     footer .redes-sociales .facebook {
       color: #3B5998; }
       footer .redes-sociales .facebook:hover {
-        color: #3B5998; }
+        color: #fff; }
     footer .redes-sociales .instagram {
       color: #2C6A93; }
       footer .redes-sociales .instagram:hover {
-        color: #2C6A93; }
+        color: #fff; }
     footer .redes-sociales .google-plus {
-      color: #C20806; }
+      color: #dd4b39; }
       footer .redes-sociales .google-plus:hover {
-        color: #C20806; }
+        color: #fff; }
   footer p {
     color: #fff; }
 

@@ -1,0 +1,22 @@
+/* Hover background colors */
+
+.color-facebook {
+    background-color: #3b5998 !important;
+}
+
+.color-googleplus {
+    background-color: #dd4b39 !important;
+}
+
+.color-instagram {
+    background-color: #417399 !important;
+}
+
+.color-facebook,
+.color-googleplus,
+.color-instagram {
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
