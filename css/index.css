@@ -45,6 +45,26 @@ nav {
     margin-bottom: 30px;
     line-height: 28px;
     text-align: justify; }
+.main .proyecto {
+  padding: 70px 0; }
+  .main .proyecto .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000; }
+  .main .proyecto .subtitulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 28px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .proyecto .svg {
+    width: 150px;
+    margin-bottom: 30px; }
+  .main .proyecto .parrafo {
+    text-align: center; }
 
 footer {
   height: 300px;
@@ -61,17 +81,17 @@ footer {
       color: #fff;
       font-size: 30px; }
     footer .redes-sociales .facebook {
-      color: #3B5998; }
+      color: #fff; }
       footer .redes-sociales .facebook:hover {
-        color: #fff; }
+        color: #3B5998; }
     footer .redes-sociales .instagram {
-      color: #2C6A93; }
+      color: #fff; }
       footer .redes-sociales .instagram:hover {
-        color: #fff; }
+        color: #2C6A93; }
     footer .redes-sociales .google-plus {
-      color: #dd4b39; }
+      color: #fff; }
       footer .redes-sociales .google-plus:hover {
-        color: #fff; }
+        color: #dd4b39; }
   footer p {
     color: #fff; }
 

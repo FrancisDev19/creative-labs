@@ -45,4 +45,29 @@
             text-align: justify;
         }
     }
+    .proyecto {
+        padding: 70px 0;
+        .titulo {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 32px;
+            color: #000;
+        }
+        .subtitulo {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 28px;
+            color: #000;
+            margin-bottom: 70px;
+        }
+        .svg {
+            width: 150px;
+            margin-bottom: 30px;
+        }
+        .parrafo {
+            text-align: center;
+        }
+    }
 }
