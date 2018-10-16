@@ -37,7 +37,7 @@
             margin-bottom: 70px;
         }
         .icono {
-            margin-bottom: 30px;
+            margin: 0 10px 30px 10px; 
         }
         .parrafo {
             margin-bottom: 30px;
@@ -47,6 +47,8 @@
     }
     .proyecto {
         padding: 70px 0;
+        display: flex;
+        flex-wrap: wrap;
         .titulo {
             text-align: center;
             text-transform: uppercase;
@@ -64,10 +66,40 @@
         }
         .svg {
             width: 150px;
-            margin-bottom: 30px;
+            margin: 0 10px 30px 10px;
         }
         .parrafo {
             text-align: center;
+        }
+    }
+    .gusta {
+        padding: 70px 0;
+        display: flex;
+        flex-wrap: wrap;
+        .titulo {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-size: 32px;
+            color: #000;
+            margin-bottom: 70px;
+        }
+        .svg {
+            width: 150px;
+            margin: 0 10px 30px 10px;
+        }
+        .parrafo {
+            text-align: center;
+        }
+        .sabermas {
+            padding: 10px 20px;
+            border: 0px;
+            background: #005792;
+            color: #fff;
+            margin: 10px 0 0 0;
+            &:hover {
+                background: rgba(0, 87, 146,.8);
+            }
         }
     }
 }

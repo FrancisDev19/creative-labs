@@ -40,13 +40,15 @@ nav {
     color: #000;
     margin-bottom: 70px; }
   .main .compromiso .icono {
-    margin-bottom: 30px; }
+    margin: 0 10px 30px 10px; }
   .main .compromiso .parrafo {
     margin-bottom: 30px;
     line-height: 28px;
     text-align: justify; }
 .main .proyecto {
-  padding: 70px 0; }
+  padding: 70px 0;
+  display: flex;
+  flex-wrap: wrap; }
   .main .proyecto .titulo {
     text-align: center;
     text-transform: uppercase;
@@ -62,9 +64,33 @@ nav {
     margin-bottom: 70px; }
   .main .proyecto .svg {
     width: 150px;
-    margin-bottom: 30px; }
+    margin: 0 10px 30px 10px; }
   .main .proyecto .parrafo {
     text-align: center; }
+.main .gusta {
+  padding: 70px 0;
+  display: flex;
+  flex-wrap: wrap; }
+  .main .gusta .titulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 70px; }
+  .main .gusta .svg {
+    width: 150px;
+    margin: 0 10px 30px 10px; }
+  .main .gusta .parrafo {
+    text-align: center; }
+  .main .gusta .sabermas {
+    padding: 10px 20px;
+    border: 0px;
+    background: #005792;
+    color: #fff;
+    margin: 10px 0 0 0; }
+    .main .gusta .sabermas:hover {
+      background: rgba(0, 87, 146, 0.8); }
 
 footer {
   height: 300px;
