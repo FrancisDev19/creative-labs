@@ -1,0 +1,36 @@
+.portafolios {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 140px 0 70px 0;
+
+    .proyecto {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    .foto {
+        vertical-align: top;
+    }
+
+    .titulo {
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .descripcion {
+        text-align: center;
+    }
+
+    .boton {
+        padding: 10px 20px;
+        background: #005792;
+        color: #fff;
+        text-align: center;
+        transition: all ease .3s;
+
+        &:hover {
+            background: #dd4b39;
+        }
+    }
+}

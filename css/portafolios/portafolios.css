@@ -1,0 +1,95 @@
+.portafolios {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 140px 0 70px 0; }
+  .portafolios .proyecto {
+    margin: 20px;
+    padding: 20px; }
+  .portafolios .foto {
+    vertical-align: top; }
+  .portafolios .titulo {
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0; }
+  .portafolios .descripcion {
+    text-align: center; }
+  .portafolios .boton {
+    padding: 10px 20px;
+    background: #005792;
+    color: #fff;
+    text-align: center;
+    transition: all ease .3s; }
+    .portafolios .boton:hover {
+      background: #dd4b39; }
+
+footer {
+  height: 300px;
+  background: #393e46;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer .redes-sociales {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    footer .redes-sociales a {
+      padding: 20px;
+      color: #fff;
+      font-size: 30px; }
+    footer .redes-sociales .facebook {
+      color: #fff; }
+      footer .redes-sociales .facebook:hover {
+        color: #3B5998; }
+    footer .redes-sociales .instagram {
+      color: #fff; }
+      footer .redes-sociales .instagram:hover {
+        color: #2C6A93; }
+    footer .redes-sociales .google-plus {
+      color: #fff; }
+      footer .redes-sociales .google-plus:hover {
+        color: #dd4b39; }
+  footer p {
+    color: #fff; }
+
+nav {
+  background: #fff; }
+  nav a {
+    color: #000;
+    margin-left: 10px; }
+    nav a:hover {
+      color: #005792; }
+
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none; }
+  .scroll-to-top a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: rgba(33, 37, 41, 0.5);
+    line-height: 3.1rem; }
+
+.modal-content {
+  z-index: 2;
+  -webkit-box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 3rem 1rem rgba(0, 0, 0, 0.5); }
+  .modal-content .modal-titulo {
+    text-align: center;
+    font-weight: 600;
+    margin: 20px 0; }
+  .modal-content .modal-text {
+    text-align: center;
+    font-weight: 400;
+    margin: 10px; }
+  .modal-content .boton {
+    padding: 10px 20px;
+    background: #005792;
+    color: #fff;
+    text-align: center;
+    transition: all ease .3s; }
+    .modal-content .boton:hover {
+      background: #dd4b39;
+      text-decoration: none; }
+
+/*# sourceMappingURL=portafolios.css.map */
