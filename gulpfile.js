@@ -8,3 +8,7 @@ var gulp = require('gulp'),
     util = require('gulp-util'),
     prefixer = require('autoprefixer'),
     browsersync = require('browser-sync');
+
+gulp.task('default', function() {
+    // content
+});
